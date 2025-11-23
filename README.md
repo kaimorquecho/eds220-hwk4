@@ -1,6 +1,13 @@
 # Homework 4: Task 2 - Visualizing Fires with False Color Images
 
 
+```
+├── .gitignore
+├── hwk4-task2-false-color-Morquecho.ipynb
+├── README.md
+```
+
+
 ### By Kaiju Morquecho
 
 ## About
