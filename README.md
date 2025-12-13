@@ -10,7 +10,8 @@ This repository contains files for the 'Working with Environmental Datasets' cou
 ├── README.md
 ```
 ### Purpose
-The purpose of this repository is to use `netCDF4` data files, accessed with the `xarray` library, to visualize the burn scars from the Eaton and Palisades fires that occurred in January of 2025. 
+
+The purpose of this repository is to use `netCDF4` data files, accessed with the `xarray` library, to visualize the burn scars from the Eaton and Palisades fires that occurred in January of 2025, within the context of environmental exposures, underlying health conditions, and socioeconomic vulnerability of the affected communities. 
 
 ### Highlights
 - Use the `xarray` library to streamline analysis of `netCDF4` files containing multidimensional data
