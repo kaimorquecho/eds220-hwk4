@@ -1,6 +1,6 @@
 ## About
 
-This repository contains files for the 'Working with Environmental Datasets' course (EDS 220), Homework 4, task 2. The Jupyter notebook `hwk4-task2-false-color-Morquecho.ipynb` contains a Python analysis and visualization of the data mentioned below using false and true color imagery to show the burn areas of the January 2025 Palisades & Eaton fires in California. The notebook `eaton-palisades-fires-EJI-Kaiju-Morquecho.ipynb` contains the analysis of the burn areas using the Environmental Justice Index.
+This repository contains files for the 'Working with Environmental Datasets' course (EDS 220), Homework 4, task 2. The Jupyter notebook `hwk4-task2-false-color-Morquecho.ipynb` contains a Python analysis and visualization of the data mentioned below using false and true color imagery to show the burn areas of the January 2025 Palisades & Eaton fires in California. The notebook `eaton-palisades-fires-EJI-Kaiju-Morquecho.ipynb` contains the social dimensions analysis of the burn areas using the Environmental Justice Index.
 
 ### Repository Structure 
 ```
