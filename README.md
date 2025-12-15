@@ -1,6 +1,6 @@
 ## About
 
-This repository contains files for the 'Working with Environmental Datasets' course (EDS 220), Homework 4, task 2. The Jupyter notebook `hwk4-task2-false-color-Morquecho.ipynb` contains a Python analysis and visualization of the data mentioned below using false and true color imagery to show the burn areas of the January 2025 Palisades & Eaton fires in California. The notebook `eaton-palisades-fires-EJI-Kaiju-Morquecho.ipynb` contains the social dimensions analysis of the burn areas using the Environmental Justice Index.
+This repository contains files for the 'Working with Environmental Datasets' course (EDS 220). The Jupyter notebook `hwk4-task2-false-color-Morquecho.ipynb` contains a Python analysis and visualization of the data mentioned below using false and true color imagery to show the burn areas of the January 2025 Palisades & Eaton fires in California. The notebook `eaton-palisades-fires-EJI-Kaiju-Morquecho.ipynb` contains the social dimensions analysis of the burn areas using the Environmental Justice Index.
 
 ### Repository Structure 
 ```
@@ -17,6 +17,10 @@ The purpose of this repository is to use `netCDF4` data files, accessed with the
 - Use the `xarray` library to streamline analysis of `netCDF4` files containing multidimensional data
 - Use false color imagery to highlight burn areas after California wildfires 
 - Address common remote sensing data issues such as extreme and `np.nan` values that distort data visualizations
+- Identify Environmental Justice Index (EJI) census tracts that spatially overlap the Eaton and Palisades 2025 burn perimeters.
+- Visualize fire perimeter data alongside the census-tract–level EJI variable 'E_POV200' to contextualize wildfire impacts across socioeconomic vulnerability.
+
+
 
 ### About the Data
 - Fire perimeter data are sourced from the [eGIS LA County hub](ttps://egis-lacounty.hub.arcgis.com/maps/lacounty::palisades-and-eaton-dissolved-fire-perimeters-2025/about), and can be accessed and downloaded by selecting the desired layer and clicking 'Download'. Dataset for the layer `Eaton_Perimeter_20250121` contains the `.shp` file of the Eaton Fire dissolved perimeter, while `Palisades_Perimeter_20250121` contains the Palisades Fire dissolved perimeter. Both datasets are in the `EPSG:3857` `CRS`.
